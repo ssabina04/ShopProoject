@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=
+    Montserrat&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/5b7abf1a46.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            
+            <!-- Cart -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- Content -->
+                <div class="cart-content">
+                </div>
+                        <!-- Total -->
+                        <div class="total">
+                            <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                        </div>
+                        
+                        <!-- Buy Button -->
+                        <button type="button" class="btn-buy">Buy Now</button>
+                        <!-- Cart Close -->
+                        <i class="bx bx-x" id="close-cart"></i>
+                </div>
+            <div class="navbar">
+                <div class="logo">
+                    <img id="home" src="images/logo.png" class="logoimg" alt="logo">
+                </div>
+                <nav>
+                    <ul id="MenuItem">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sectionShop">Products</a></li>
+                        <li><a href="">Comments</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <div  class="box-bag"><i class='bx bx-shopping-bag' id="cart-icon"></i></div>
+                <div class="menu-burger menu-icon" onclick="menucall()"><i class='bx bx-menu'></i></div>
+            </div>
+            <div class="container">
+            <div class="row">
+                    <div class="col-2">
+                    <h1>Give Your Life<br> A New Style!</h1>
+                    <p>Success is not always about greatness. It's about
+                        consistency. Consistent<br> hard work gains success. Greatness will come</p>
+                    <a  href="" class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/first.png">
+
+                </div>
+                </div>
+                
+            </div>
+       
+        </div>
+    <!------------ featured categories ------------>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/kurtka.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/shlepka.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/bagg.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Shop -->
+     <section id="sectionShop" class="shop container">
+        <div class="section-title">
+           <h2> Shop Products</h2>
+           <!-- Content -->
+           <div class="shop-content">
+            <!-- Box1 -->
+            <div class="product-box">
+                <img src="../images/kofta.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY KEPKA</h2>
+                <span class="price">$25</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- Box2 -->
+             <div class="product-box">
+                <img src="../images/futbolka.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY FUTBOLA</h2>
+                <span class="price">$165</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- Box3 -->
+             <div class="product-box">
+                <img src="../images/ak_kepke.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY KURTKA</h2>
+                <span class="price">$255</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- Box4 -->
+             <div class="product-box">
+                <img src="../images/koinok.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY KOINOK</h2>
+                <span class="price">$25</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- Box5 -->
+             <div class="product-box">
+                <img src="../images/kedy.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY KOINOK</h2>
+                <span class="price">$255</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- Box6 -->
+             <div class="product-box">
+                <img src="../images/keprf.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY KOINOK</h2>
+                <span class="price">$25</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- Box7 -->
+             <div class="product-box">
+                <img src="../images/koinok.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY KOINOK</h2>
+                <span class="price">$25</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+            <!-- Box8 -->
+            <div class="product-box">
+                <img src="../images/bagg.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY BAG</h2>
+                <span class="price">$785</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+            <!-- Box9 -->
+            <div class="product-box">
+                <img src="./images/koinok2.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY BAG</h2>
+                <span class="price">$785</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+            <!-- Box10 -->
+            <div class="product-box">
+                <img src="./images/bezrukovka.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY BAG</h2>
+                <span class="price">$785</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+            <!-- Box11 -->
+            <div class="product-box">
+                <img src="./images/lui.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY BAG</h2>
+                <span class="price">$785</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+            <!-- Box11 -->
+            <div class="product-box">
+                <img src="./images/glasses.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREDY BAG</h2>
+                <span class="price">$785</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+            
+           </div>
+        </div>
+    </section>
+
+    <!-- ------Offer------ -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <p>Exclusively available in Mango</p>
+                    <h1>Leather Bag</h1>
+                    <p>They quickly darken in sunlight and fade back to clear indoors: eyeglasses and sunglasses in one.
+                        Available in prescription</p>
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="./images/ex bag.jpg" class="offer-img">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Testimonial--------- -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugit vitae magni eos ipsa vero
+                        est veniam beatae aperiam aliquam. Eius voluptatum reprehenderit dolorum similique sequi
+                        doloribus cumque exercitationem odit.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="images/user2.jpg">
+                    <h2>Asanova Asel</h2>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugit vitae magni eos ipsa vero
+                        est veniam beatae aperiam aliquam. Eius voluptatum reprehenderit dolorum similique sequi
+                        doloribus cumque exercitationem odit.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="images/user3.jfif">
+                    <h2>Akaev Sadyr</h2>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugit vitae magni eos ipsa vero
+                        est veniam beatae aperiam aliquam. Eius voluptatum reprehenderit dolorum similique sequi
+                        doloribus cumque exercitationem odit.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="images/user4.jpg">
+                    <h2>Anna Karan</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------brands--- -->
+    
+    <!-- ----------footer -->
+    <div id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde temporibus earum ad deleniti,
+                        nostrum repellendus necessitatibus expedita vero minima praesentium, odit commodi amet magnam
+                        excepturi obcaecati. Veritatis id odio reprehenderit!</p>
+                    <div class="app-logo">
+                        <img src="images/appp.jpg">
+                        <img src="images/p.jfif">
+
+                    </div>
+                    </div>
+                <div class="footer-col-2">
+                    <h3>Usefull Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Telegram</li>
+                        <li>Odnaklassniki</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+   
+    </div>
+</div>
+<!-- menucall -->
+<script src="./js/main.js">
+</script>
+
+</body>
+
+</html>
